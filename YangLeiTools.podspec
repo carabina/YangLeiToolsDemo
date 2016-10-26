@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
     s.source_files = 'YangLeiToolsDemo/YangLeiTools/*.{h,m}'
     s.requires_arc = true
     s.dependency 'AFNetworking', '~> 3.1.0'  #需要用的第三方
+    s.dependency 'SVProgressHUD', '~> 2.0.3'  #需要用的第三方
+
     # s.framework  = "SomeFramework" #可以指定你需要的framework 由于我这里是一个简单的demo，所以这里没有指定
     # s.frameworks = "SomeFramework", "AnotherFramework"
 end
