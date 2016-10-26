@@ -16,6 +16,8 @@
 		5A8C48C91DC09AC900CD050E /* YangLeiToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C48C81DC09AC900CD050E /* YangLeiToolsDemoTests.m */; };
 		5A8C48D41DC09AC900CD050E /* YangLeiToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C48D31DC09AC900CD050E /* YangLeiToolsDemoUITests.m */; };
 		5A8C48E41DC09B0500CD050E /* YLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C48E31DC09B0500CD050E /* YLModel.m */; };
+		5A8C48E71DC0AC6300CD050E /* YLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C48E61DC0AC6300CD050E /* YLTool.m */; };
+		5A8C48EB1DC0B1E500CD050E /* YLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C48EA1DC0B1E500CD050E /* YLBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,11 @@
 		5A8C48D51DC09AC900CD050E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8C48E21DC09B0500CD050E /* YLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLModel.h; sourceTree = "<group>"; };
 		5A8C48E31DC09B0500CD050E /* YLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLModel.m; sourceTree = "<group>"; };
+		5A8C48E51DC0AC6300CD050E /* YLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTool.h; sourceTree = "<group>"; };
+		5A8C48E61DC0AC6300CD050E /* YLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTool.m; sourceTree = "<group>"; };
+		5A8C48E81DC0B1CE00CD050E /* YLSystemHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSystemHeader.h; sourceTree = "<group>"; };
+		5A8C48E91DC0B1E500CD050E /* YLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBaseViewController.h; sourceTree = "<group>"; };
+		5A8C48EA1DC0B1E500CD050E /* YLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +156,11 @@
 			children = (
 				5A8C48E21DC09B0500CD050E /* YLModel.h */,
 				5A8C48E31DC09B0500CD050E /* YLModel.m */,
+				5A8C48E51DC0AC6300CD050E /* YLTool.h */,
+				5A8C48E61DC0AC6300CD050E /* YLTool.m */,
+				5A8C48E91DC0B1E500CD050E /* YLBaseViewController.h */,
+				5A8C48EA1DC0B1E500CD050E /* YLBaseViewController.m */,
+				5A8C48E81DC0B1CE00CD050E /* YLSystemHeader.h */,
 			);
 			path = YangLeiTools;
 			sourceTree = "<group>";
@@ -286,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8C48EB1DC0B1E500CD050E /* YLBaseViewController.m in Sources */,
 				5A8C48B61DC09AC800CD050E /* ViewController.m in Sources */,
+				5A8C48E71DC0AC6300CD050E /* YLTool.m in Sources */,
 				5A8C48B31DC09AC800CD050E /* AppDelegate.m in Sources */,
 				5A8C48E41DC09B0500CD050E /* YLModel.m in Sources */,
 				5A8C48B01DC09AC800CD050E /* main.m in Sources */,
@@ -519,6 +533,7 @@
 				5A8C48DA1DC09AC900CD050E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A8C48DB1DC09AC900CD050E /* Build configuration list for PBXNativeTarget "YangLeiToolsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +542,7 @@
 				5A8C48DD1DC09AC900CD050E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A8C48DE1DC09AC900CD050E /* Build configuration list for PBXNativeTarget "YangLeiToolsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +551,7 @@
 				5A8C48E01DC09AC900CD050E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

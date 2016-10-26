@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YangLeiTools'
-    s.version      = '1.0.1'
+    s.version      = '1.0.2'
     s.summary      = 'An easy way to use pull-to-refresh'
     s.homepage     = 'https://github.com/yangLeiBoy/YangLeiToolsDemo'
     s.license      = 'MIT'
